@@ -1,0 +1,123 @@
+{
+  "boc-jamon-serrano": {
+    "name": "Bocadillo de Jam\u00f3n Serrano",
+    "description": "Jam\u00f3n serrano curado con tomate natural rallado y un toque de aceite de oliva virgen extra.",
+    "price": 4.50,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bocadillo_de_jam%C3%B3n_serrano_Mallorca.jpg/960px-Bocadillo_de_jam%C3%B3n_serrano_Mallorca.jpg",
+    "category": "bocadillos",
+    "ingredients": ["pan", "tomate", "jam\u00f3n serrano", "aceite de oliva"],
+    "ingredientExtraPrices": {"tomate": 0.30, "jam\u00f3n serrano": 1.50, "aceite de oliva": 0.20},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "boc-jamon-iberico": {
+    "name": "Bocadillo de Jam\u00f3n Ib\u00e9rico",
+    "description": "Jam\u00f3n ib\u00e9rico de bellota sobre pan con tomate y aceite de oliva virgen extra.",
+    "price": 6.50,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Bocadillo_de_jam%C3%B3n_ib%C3%A9rico.jpg/960px-Bocadillo_de_jam%C3%B3n_ib%C3%A9rico.jpg",
+    "category": "bocadillos",
+    "ingredients": ["pan", "tomate", "jam\u00f3n ib\u00e9rico", "aceite de oliva"],
+    "ingredientExtraPrices": {"tomate": 0.30, "jam\u00f3n ib\u00e9rico": 2.50, "aceite de oliva": 0.20},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "boc-tortilla-espanola": {
+    "name": "Bocadillo de Tortilla Espa\u00f1ola",
+    "description": "Tortilla de patata casera, jugosa por dentro, en pan crujiente.",
+    "price": 4.00,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/bocadillo_tortilla_sin_fondo.png",
+    "category": "bocadillos",
+    "ingredients": ["pan", "tortilla de patata", "mahonesa"],
+    "ingredientExtraPrices": {"tortilla de patata": 1.20, "mahonesa": 0.20},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "boc-calamares": {
+    "name": "Bocadillo de Calamares",
+    "description": "El cl\u00e1sico de Madrid: calamares rebozados crujientes con un toque de lim\u00f3n.",
+    "price": 5.50,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Bocata_de_calamares.jpg/960px-Bocata_de_calamares.jpg",
+    "category": "bocadillos",
+    "ingredients": ["pan", "calamares", "lim\u00f3n", "mahonesa"],
+    "ingredientExtraPrices": {"calamares": 1.80, "lim\u00f3n": 0.10, "mahonesa": 0.20},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "boc-chorizo": {
+    "name": "Bocadillo de Chorizo y Queso",
+    "description": "Chorizo y queso fundido en pan r\u00fastico reci\u00e9n hecho.",
+    "price": 3.50,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/bocadillo_chorizo_queso_sin_fondo.png",
+    "category": "bocadillos",
+    "ingredients": ["pan", "chorizo", "queso"],
+    "ingredientExtraPrices": {"chorizo": 0.80, "queso": 0.80},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "boc-lomo-queso": {
+    "name": "Bocadillo de Lomo y Queso",
+    "description": "Lomo y queso fundido en pan crujiente.",
+    "price": 5.00,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/bocadillo_lomo_queso_sin_fondo.png",
+    "category": "bocadillos",
+    "ingredients": ["pan", "lomo", "queso"],
+    "ingredientExtraPrices": {"lomo": 1.50, "queso": 0.80},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "boc-atun": {
+    "name": "Bocadillo de At\u00fan",
+    "description": "At\u00fan con mahonesa, tomate maduro y lechuga fresca.",
+    "price": 3.80,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/bocadillo_atun_sin_fondo.png",
+    "category": "bocadillos",
+    "ingredients": ["pan", "at\u00fan", "mahonesa", "tomate", "lechuga"],
+    "ingredientExtraPrices": {"at\u00fan": 1.20, "mahonesa": 0.20, "tomate": 0.30, "lechuga": 0.20},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "boc-mixto": {
+    "name": "Bocadillo Mixto",
+    "description": "El de toda la vida: jam\u00f3n cocido y queso fundido en pan tierno.",
+    "price": 3.50,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/bocadillo_mixto_sin_fondo.png",
+    "category": "bocadillos",
+    "ingredients": ["pan", "jam\u00f3n cocido", "queso"],
+    "ingredientExtraPrices": {"jam\u00f3n cocido": 0.80, "queso": 0.80},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "boc-bacon-queso-mahonesa": {
+    "name": "Bocadillo de Bacon, Queso y Mahonesa",
+    "description": "Bacon crujiente, queso fundido y mahonesa en pan reci\u00e9n hecho.",
+    "price": 4.00,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/bocadillo_bacon_queso_mahonesa_sin_fondo.png",
+    "category": "bocadillos",
+    "ingredients": ["pan", "bacon", "queso", "mahonesa"],
+    "ingredientExtraPrices": {"bacon": 1.00, "queso": 0.80, "mahonesa": 0.20},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "boc-ternasco": {
+    "name": "Bocadillo de Ternasco",
+    "description": "Ternasco asado con alioli suave y pimiento verde a la plancha.",
+    "price": 6.00,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Bocadillo_de_ternasco%2C_alioli_y_pimiento_verde.jpeg/960px-Bocadillo_de_ternasco%2C_alioli_y_pimiento_verde.jpeg",
+    "category": "bocadillos",
+    "ingredients": ["pan", "ternasco", "alioli", "pimiento verde"],
+    "ingredientExtraPrices": {"ternasco": 2.00, "alioli": 0.30, "pimiento verde": 0.40},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "boc-esparragos": {
+    "name": "Bocadillo de Esp\u00e1rragos",
+    "description": "Esp\u00e1rragos verdes a la plancha con un toque de mahonesa casera.",
+    "price": 4.20,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Bocadillo_de_esp%C3%A1rragos_silvestres_%28Espa%C3%B1a%29.jpg/960px-Bocadillo_de_esp%C3%A1rragos_silvestres_%28Espa%C3%B1a%29.jpg",
+    "category": "bocadillos",
+    "ingredients": ["pan", "esp\u00e1rragos", "mahonesa"],
+    "ingredientExtraPrices": {"esp\u00e1rragos": 1.00, "mahonesa": 0.20},
+    "available": true,
+    "glutenFreeBread": false
+  }
+}

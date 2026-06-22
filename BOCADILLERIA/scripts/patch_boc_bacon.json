@@ -1,0 +1,11 @@
+{
+  "name": "Bocadillo de Bacon, Queso y Mahonesa",
+  "description": "Bacon crujiente, queso fundido y mahonesa en pan reci\u00e9n hecho.",
+  "price": 4.00,
+  "imageUrl": "https://bocadilleria-a5c81.web.app/images/bocadillo_bacon_queso_mahonesa_sin_fondo.png",
+  "category": "bocadillos",
+  "ingredients": ["pan", "bacon", "queso", "mahonesa"],
+  "ingredientExtraPrices": {"bacon": 1.00, "queso": 0.80, "mahonesa": 0.20},
+  "available": true,
+  "glutenFreeBread": false
+}

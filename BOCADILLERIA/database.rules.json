@@ -1,0 +1,32 @@
+{
+  "rules": {
+    "users": {
+      ".read": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'",
+      "$uid": {
+        ".read": "auth != null && ($uid === auth.uid || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+        ".write": "auth != null && (($uid === auth.uid && !data.exists() && newData.child('role').val() === 'user') || root.child('users').child(auth.uid).child('role').val() === 'admin')"
+      }
+    },
+    "products": {
+      ".read": "auth != null",
+      ".indexOn": ["category"],
+      "$productId": {
+        ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'"
+      }
+    },
+    "orders": {
+      ".read": "auth != null && (root.child('users').child(auth.uid).child('role').val() === 'admin' || query.orderByChild == 'userId' && query.equalTo == auth.uid)",
+      ".indexOn": ["userId"],
+      "$orderId": {
+        ".read": "auth != null && (data.child('userId').val() === auth.uid || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+        ".write": "auth != null && ((!data.exists() && newData.child('userId').val() === auth.uid) || root.child('users').child(auth.uid).child('role').val() === 'admin' || (data.exists() && data.child('userId').val() === auth.uid && (data.child('status').val() === 'completado' || data.child('status').val() === 'completed' || data.child('status').val() === 'limpiado_cocina') && newData.child('status').val() === 'archivado' && newData.child('userId').val() === data.child('userId').val() && newData.child('totalPrice').val() === data.child('totalPrice').val() && newData.child('timestamp').val() === data.child('timestamp').val()))"
+      }
+    },
+    "favorites": {
+      "$uid": {
+        ".read": "auth != null && ($uid === auth.uid || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+        ".write": "auth != null && ($uid === auth.uid || root.child('users').child(auth.uid).child('role').val() === 'admin')"
+      }
+    }
+  }
+}

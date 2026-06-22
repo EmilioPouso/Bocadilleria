@@ -1,0 +1,11 @@
+{
+  "name": "Bocadillo de Chorizo y Queso",
+  "description": "Chorizo y queso fundido en pan r\u00fastico reci\u00e9n hecho.",
+  "price": 3.50,
+  "imageUrl": "https://bocadilleria-a5c81.web.app/images/bocadillo_chorizo_queso_sin_fondo.png",
+  "category": "bocadillos",
+  "ingredients": ["pan", "chorizo", "queso"],
+  "ingredientExtraPrices": {"chorizo": 0.80, "queso": 0.80},
+  "available": true,
+  "glutenFreeBread": false
+}

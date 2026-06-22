@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1054240625208",
+    "project_id": "bocadilleria-a5c81",
+    "storage_bucket": "bocadilleria-a5c81.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054240625208:android:9be70b32fdcac8d11f8ccd",
+        "android_client_info": {
+          "package_name": "com.example.proyecto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5xEEmDM8vmyZ81YyhcyXGfaw5LDqDZe8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

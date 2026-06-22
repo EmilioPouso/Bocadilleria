@@ -1,0 +1,123 @@
+{
+  "beb-fanta-naranja": {
+    "name": "Fanta de Naranja",
+    "description": "Refresco con gas sabor naranja. Lata 330 ml.",
+    "price": 2.00,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/fanta_naranja_sin_fondo.png",
+    "category": "bebidas",
+    "ingredients": [],
+    "ingredientExtraPrices": {},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "beb-fanta-limon": {
+    "name": "Fanta de Lim\u00f3n",
+    "description": "Refresco con gas sabor lim\u00f3n. Lata 330 ml.",
+    "price": 2.00,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/fanta_limon_sin_fondo.png",
+    "category": "bebidas",
+    "ingredients": [],
+    "ingredientExtraPrices": {},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "beb-coca-cola": {
+    "name": "Coca-Cola",
+    "description": "Coca-Cola original. Lata 330 ml.",
+    "price": 2.20,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/coca_cola_sin_fondo.png",
+    "category": "bebidas",
+    "ingredients": [],
+    "ingredientExtraPrices": {},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "beb-coca-cola-zero": {
+    "name": "Coca-Cola Zero",
+    "description": "Coca-Cola sin az\u00facar. Lata 330 ml.",
+    "price": 2.20,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/coca_cola_zero_sin_fondo.png",
+    "category": "bebidas",
+    "ingredients": [],
+    "ingredientExtraPrices": {},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "beb-coca-cola-zero-zero": {
+    "name": "Coca-Cola Zero Zero",
+    "description": "Coca-Cola sin az\u00facar y sin cafe\u00edna. Lata 330 ml.",
+    "price": 2.20,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/coca_cola_zero_zero_sin_fondo.png",
+    "category": "bebidas",
+    "ingredients": [],
+    "ingredientExtraPrices": {},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "beb-nestea": {
+    "name": "Nestea",
+    "description": "Refresco de t\u00e9 al lim\u00f3n. Botella 330 ml.",
+    "price": 2.20,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/nestea_sin_fondo.png",
+    "category": "bebidas",
+    "ingredients": [],
+    "ingredientExtraPrices": {},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "beb-nestea-maracuya": {
+    "name": "Nestea de Maracuy\u00e1",
+    "description": "Refresco de t\u00e9 verde con sabor a maracuy\u00e1. Botella 330 ml.",
+    "price": 2.40,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/nestea_maracuya_sin_fondo.png",
+    "category": "bebidas",
+    "ingredients": [],
+    "ingredientExtraPrices": {},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "beb-aquarius-naranja": {
+    "name": "Aquarius de Naranja",
+    "description": "Bebida isot\u00f3nica sabor naranja. Botella 500 ml.",
+    "price": 2.30,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/aquarius_naranja_sin_fondo.png",
+    "category": "bebidas",
+    "ingredients": [],
+    "ingredientExtraPrices": {},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "beb-aquarius-limon": {
+    "name": "Aquarius de Lim\u00f3n",
+    "description": "Bebida isot\u00f3nica sabor lim\u00f3n. Lata 330 ml.",
+    "price": 2.30,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/aquarius_limon_sin_fondo.png",
+    "category": "bebidas",
+    "ingredients": [],
+    "ingredientExtraPrices": {},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "beb-agua-pequena": {
+    "name": "Agua peque\u00f1a",
+    "description": "Agua mineral natural. Botella 50 cl.",
+    "price": 1.20,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/agua_pequena_sin_fondo.png",
+    "category": "bebidas",
+    "ingredients": [],
+    "ingredientExtraPrices": {},
+    "available": true,
+    "glutenFreeBread": false
+  },
+  "beb-agua-grande": {
+    "name": "Agua grande",
+    "description": "Agua mineral natural. Botella 1,5 L.",
+    "price": 2.00,
+    "imageUrl": "https://bocadilleria-a5c81.web.app/images/agua_grande_sin_fondo.png",
+    "category": "bebidas",
+    "ingredients": [],
+    "ingredientExtraPrices": {},
+    "available": true,
+    "glutenFreeBread": false
+  }
+}

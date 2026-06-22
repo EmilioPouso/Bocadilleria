@@ -1,0 +1,11 @@
+{
+  "name": "Bocadillo de Tortilla Espa\u00f1ola",
+  "description": "Tortilla de patata casera, jugosa por dentro, en pan crujiente.",
+  "price": 4.00,
+  "imageUrl": "https://bocadilleria-a5c81.web.app/images/bocadillo_tortilla_sin_fondo.png",
+  "category": "bocadillos",
+  "ingredients": ["pan", "tortilla de patata", "mahonesa"],
+  "ingredientExtraPrices": {"tortilla de patata": 1.20, "mahonesa": 0.20},
+  "available": true,
+  "glutenFreeBread": false
+}

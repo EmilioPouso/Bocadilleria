@@ -1,0 +1,11 @@
+{
+  "name": "Bocadillo Mixto",
+  "description": "El de toda la vida: jam\u00f3n cocido y queso fundido en pan tierno.",
+  "price": 3.50,
+  "imageUrl": "https://bocadilleria-a5c81.web.app/images/bocadillo_mixto_sin_fondo.png",
+  "category": "bocadillos",
+  "ingredients": ["pan", "jam\u00f3n cocido", "queso"],
+  "ingredientExtraPrices": {"jam\u00f3n cocido": 0.80, "queso": 0.80},
+  "available": true,
+  "glutenFreeBread": false
+}

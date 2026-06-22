@@ -1,0 +1,11 @@
+{
+  "name": "Bocadillo de Lomo y Queso",
+  "description": "Lomo y queso fundido en pan crujiente.",
+  "price": 5.00,
+  "imageUrl": "https://bocadilleria-a5c81.web.app/images/bocadillo_lomo_queso_sin_fondo.png",
+  "category": "bocadillos",
+  "ingredients": ["pan", "lomo", "queso"],
+  "ingredientExtraPrices": {"lomo": 1.50, "queso": 0.80},
+  "available": true,
+  "glutenFreeBread": false
+}
